@@ -3,7 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <title>login page</title>
   </head>
-  <body></body>
+  <body>
+    <section>
+      <form>
+        <!-- Thẻ h1 -->
+        <h1>Login</h1>
+        <!-- Class inputbox -->
+        <div class="inputbox">
+          <ico-icon name="mail-outline"></ico-icon>
+          <input type="email" required />
+          <label for="">User</label>
+        </div>
+
+        <div class="inputbox">
+          <ico-icon name="lock-closed-ouline"></ico-icon>
+          <input type="password" required />
+          <label for="">Password</label>
+        </div>
+
+        <div class="forget">
+          <label for=""><input type="checkbox" />Nhớ mật khẩu</label>
+          <a href="#">Quên mật khẩu</a>
+        </div>
+
+        <button>Login</button>
+        <div class="Register">
+          <p>I don't have an account</p>
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
